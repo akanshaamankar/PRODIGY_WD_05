@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.weather-container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#location {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.weather-info h2 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}
